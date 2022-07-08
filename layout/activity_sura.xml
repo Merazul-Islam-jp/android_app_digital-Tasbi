@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".sura">
+
+    <Button
+        android:id="@+id/sura1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সূরা ফাতিহা"
+        android:textStyle="bold"
+        android:background="@drawable/sura1"
+        android:layout_margin="10dp"/>
+    <Button
+        android:id="@+id/sura2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সূরা ইখলাস "
+        android:background="@drawable/sura1"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/sura3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সূরা আন নাস"
+        android:background="@drawable/sura1"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/sura4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সূরা ফালাক"
+        android:background="@drawable/sura1"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

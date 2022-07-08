@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Sura_Naz">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/Black"
+        android:text="সূরা ইখলাস এর আরবি:\n
+ بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\n
+
+আরবি উচ্চারণ:\n
+বিসমিল্লাহির রাহমানির রাহিম\n
+
+বাংলা অনুবাদ:\n
+পরম করুণাময় অতি দয়ালু আল্লাহর নামে শুরু করছি।\n
+
+قُلْ هُوَ اللَّهُ أَحَدٌ\n
+
+আরবি উচ্চারণ\n
+কুল্ হুওয়াল্লা-হু আহাদ্।\n
+
+বাংলা অনুবাদ\n
+বল, তিনিই আল্লাহ, এক-অদ্বিতীয়।\n
+
+اللَّهُ الصَّمَدُ\n
+
+আরবি উচ্চারণ\n
+ আল্লা-হুচ্ছমাদ্।\n
+
+বাংলা অনুবাদ\n
+আল্লাহ কারো মুখাপেক্ষী নন, সকলেই তাঁর মুখাপেক্ষী।\n
+
+لَمْ يَلِدْ وَلَمْ يُولَدْ\n
+
+আরবি উচ্চারণ\n
+ লাম্ ইয়ালিদ্ অলাম্ ইয়ূলাদ্।\n
+
+বাংলা অনুবাদ\n
+তিনি কাউকে জন্ম দেননি এবং তাঁকেও জন্ম দেয়া হয়নি।\n
+
+وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ\n
+
+আরবি উচ্চারণ\n
+ অলাম্ ইয়া কুল্লাহূ কুফুওয়ান্ আহাদ্।\n
+
+বাংলা অনুবাদ\n
+ আর তাঁর কোন সমকক্ষও নেই।\n
+
+সুরা ইখলাসের ফজিলত\n
+সুরা ইখলাস-এর ভাব ও মর্মার্থ বুঝে পড়লে তাতে বান্দার অন্তরে আল্লাহর গুণাবলী গেঁথে যাবে। মনে প্রাণে ওই ব্যক্তি হয়ে উঠবে শিরকমুক্ত ঈমানের অধিকারী হবে। আর তার বিনিময়ে সে লাভ করবে দুনিয়া ও পরকালের অনেক উপকারিতা ও ফজিলত। "/>
+    </ScrollView>
+
+</LinearLayout>

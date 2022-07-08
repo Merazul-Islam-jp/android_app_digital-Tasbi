@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="3">
+
+    <TextView
+       android:id="@+id/display"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:textSize="60dp"
+       android:text="0"
+       android:background="@color/Aqua"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:textColor="@color/black" />
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:shadowColor="@color/Black"
+            android:layout_height="wrap_content"
+            android:text="subhanallah"
+            android:textSize="11dp"
+            android:textColor="@color/DeepSkyBlue"
+            android:background="@drawable/jikir_1"
+            android:id="@+id/Button_1"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:shadowRadius="14"
+
+            android:padding="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alhamdulillah"
+            android:textSize="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_weight="1"
+            android:background="@drawable/jikir_2"
+            android:id="@+id/Button_2"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allahu Akbar"
+            android:textSize="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_weight="1"
+            android:background="@drawable/jikir_1"
+            android:id="@+id/Button_3"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="20dp"
+        android:background="@drawable/jikir_2"
+        android:id="@+id/Button_4"
+        android:layout_margin="5dp"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        android:width="25dp"
+        android:textStyle="italic"
+        android:height="10dp"
+        android:padding="5dp"/>
+    <Button
+        android:id="@+id/time"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Time and Date"
+        android:textSize="20dp"
+        android:background="@color/purple_200"
+        android:layout_gravity="center"
+        android:width="20dp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/text_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="সূরা সমূহ বাংলা উচ্চারণ"
+            android:background="@drawable/button_shap"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/text_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shap2"
+            android:text="বিপদ থেকে বাঁচতে ১০ কার্যকরী দোয়"
+            android:textSize="25dp"/>
+        <Button
+            android:id="@+id/text_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shap3"
+            android:shadowColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="মাসআলা মাসায়েল"
+            android:textSize="25dp"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
